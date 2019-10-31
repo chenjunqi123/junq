@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    (null)
+	    My Site
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -41,6 +41,133 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Sizes */
+
+.bloc-lg{
+	padding:100px 50px;
+}
+
+/* = Full Screen Blocs 
+-------------------------------------------------------------- */
+
+.bloc-fill-screen{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bloc-fill-screen > .container{
+	align-self: flex-middle;
+	flex-grow: 1;
+	display: flex;
+}
+.bloc-fill-screen > .container > .row{
+	flex-grow: 1;
+	align-self: center;
+	width:100%;
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	flex-grow: 0;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	align-self: flex-start;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	align-self: flex-end;
+}
+
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
+
+/* Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
+}
+
+/* Disable Parallax on Mobile Touch Devices */
+@media (hover: none) {
+	.b-parallax{
+	background-attachment:scroll;
+}
+}
+
+/* Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
+}
+.d-bloc .card{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover{
+	color:rgba(0,0,0,.7);
+}
+.d-bloc .card icon{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover{
+	color:rgba(0,0,0,1);
+}
+.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+
 /* = NavBar
 -------------------------------------------------------------- */
 
@@ -63,6 +190,25 @@ a:hover{text-decoration: none; cursor:pointer;}
 	transform: rotate(-90deg);
 }
 
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -119,6 +265,11 @@ button{
 	opacity: 1;
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -128,11 +279,186 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1140px;
 }
+.img-style{
+	width:190px;
+	border-radius:57px 57px 57px 57px;
+}
+.img-2-style{
+	width:245px;
+	border-radius:331px 331px 331px 331px;
+}
+.row-style{
+	width:15.25%;
+}
+.bloc-bloc-3-style{
+	width:31.5%;
+}
+.-{
+	;
+}
+.digbug{
+	margin-top:-50px;
+}
+.dao-hang{
+	margin-bottom:1000px;
+}
+.dao-han{
+	margin-bottom:100px;
+}
+.chen{
+	margin-top:150px;
+}
+.cha{
+	margin-top:100px;
+}
+.h-c-a{
+	;
+}
+.liao{
+	margin-top:60px;
+}
+.mt100{
+	margin-top:100px;
+	margin-bottom:110px;
+}
+.hang{
+	margin-right:300px;
+}
+.ge-ren{
+	;
+}
+.jian-jie{
+	margin:600px 100px 100px 100px;
+}
+.lian-xi{
+	margin-bottom:100px;
+}
+.fa{
+	;
+}
+.p-style{
+	color:#7A8798!important;
+	border-color:#D5E9FF!important;
+	background-color:transparent;
+	font-size:14px;
+	width:90.72%;
+	padding-top:30px;
+}
+.q{
+	color:rgba(0,180,38,0.8)!important;
+}
+.lao-ju-chang{
+	background-color:#7A8798;
+}
+.ju-chan{
+	background-color:#FFFFFF;
+}
+.gong-zhu{
+	border-color:#7A8798!important;
+	border-style:none;
+	background-color:#FEFFFE;
+}
+.p-bloc-4-style{
+	width:73.81%;
+	border-color:#8391A1!important;
+	color:#7A8798!important;
+	font-size:14px;
+	margin-top:200px;
+}
+.xia{
+	;
+}
+.nian{
+	;
+}
+.zhu{
+	;
+}
+.style{
+	margin-top:200px;
+}
+.bo{
+	margin-top:400px;
+	margin-left:85px;
+}
+.zhi{
+	margin-top:40px;
+	margin-left:15px;
+}
+.zhh{
+	margin-top:85px;
+}
+.zhiii{
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left:100px;
+}
+.zhii{
+	margin-top:35px;
+	margin-left:55px;
+}
+.boo{
+	margin-top:450px;
+}
+.booo{
+	margin-top:530px;
+}
+.boooo{
+	margin-top:40px;
+	margin-left:85px;
+}
+.p-bloc-5-style{
+	width:78.06%;
+}
+.p-4-style{
+	width:82.26%;
+}
+.p-3-style{
+	width:90%;
+}
+.bei{
+	margin-top:410px;
+}
+.p-bloc-6-style{
+	width:58.39%;
+}
+.beii{
+	margin-top:320px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 
+/* Bloc image backgrounds */
+
+.bg-背景{
+	background-image:url("img/背景.jpg");
+}
+.bg-背景{
+	background-image:url("img/背景.png");
+}
+.bg-bei{
+	background-image:url("img/bei.png");
+}
+.bg-jianjie{
+	background-image:url("img/jianjie.png");
+}
+.bg-lianxi{
+	background-image:url("img/lianxi.png");
+}
+.bg-zi{
+	background-image:url("img/zi.png");
+}
+.bg-gongyi{
+	background-image:url("img/gongyi.png");
+}
+.bg-chahua{
+	background-image:url("img/chahua.png");
+}
+.bg-di{
+	background-image:url("img/di.png");
+}
 
 
 
@@ -197,3 +523,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
+
+@media (max-width: 991px){
+	.img-2-style{
+		width:294px;
+		border-radius:150px 150px 150px 150px;
+	}
+	
+}
+
