@@ -47,36 +47,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:100px 50px;
 }
 
-/* = Full Screen Blocs 
--------------------------------------------------------------- */
-
-.bloc-fill-screen{
-	min-height:100vh;
-	display: flex;
-	flex-direction: column;
-	padding-top:20px;
-	padding-bottom:20px;
-}
-.bloc-fill-screen > .container{
-	align-self: flex-middle;
-	flex-grow: 1;
-	display: flex;
-}
-.bloc-fill-screen > .container > .row{
-	flex-grow: 1;
-	align-self: center;
-	width:100%;
-}
-.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
-	flex-grow: 0;
-}
-.bloc-fill-screen .fill-bloc-top-edge{
-	align-self: flex-start;
-}
-.bloc-fill-screen .fill-bloc-bottom-edge{
-	align-self: flex-end;
-}
-
 /* = Full Width Blocs 
 -------------------------------------------------------------- */
 
@@ -190,25 +160,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	transform: rotate(-90deg);
 }
 
-/* = Bric adjustment margins
--------------------------------------------------------------- */
-
-.mg-md{
-	margin-top:10px;
-	margin-bottom:20px;
-}
-img.mg-sm,img.mg-md,img.mg-lg{
-	margin-top: 0;
-}
-img.mg-sm{
-	margin-bottom:10px;
-}
-img.mg-md{
-	margin-bottom:30px;
-}
-img.mg-lg{
-	margin-bottom:50px;
-}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -263,11 +214,6 @@ button{
 .showScrollTop{
 	font-size: 14px;
 	opacity: 1;
-}
-
-/* Hide Object */
-.object-hidden{
-	display:none;
 }
 
 /* = Custom Styling
@@ -432,12 +378,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-背景{
-	background-image:url("img/背景.jpg");
-}
-.bg-背景{
-	background-image:url("img/背景.png");
-}
 .bg-bei{
 	background-image:url("img/bei.png");
 }
