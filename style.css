@@ -81,52 +81,30 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 }
 
-/* Dark theme */
+/* Light theme */
 
-.d-bloc{
-	color:rgba(255,255,255,.7);
-}
-.d-bloc button:hover{
-	color:rgba(255,255,255,.9);
-}
-.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
-	border-color:rgba(255,255,255,.9);
-}
-.d-bloc .divider-h span{
-	border-color:rgba(255,255,255,.2);
-}
-.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
-	color:rgba(255,255,255,.6);
-}
-.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
-	color:rgba(255,255,255,1);
-}
-.d-bloc .navbar-toggle .icon-bar{
-	background:rgba(255,255,255,1);
-}
-.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
-	color:rgba(255,255,255,1);
-	border-color:rgba(255,255,255,1);
-}
-.d-bloc .card{
+.d-bloc .card,.l-bloc{
 	color:rgba(0,0,0,.5);
 }
-.d-bloc .card button:hover{
+.d-bloc .card button:hover,.l-bloc button:hover{
 	color:rgba(0,0,0,.7);
 }
-.d-bloc .card icon{
+.l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b{
 	border-color:rgba(0,0,0,.7);
 }
-.d-bloc .card .divider-h span{
+.d-bloc .card .divider-h span,.l-bloc .divider-h span{
 	border-color:rgba(0,0,0,.1);
 }
-.d-bloc .card .a-btn{
+.d-bloc .card .a-btn,.l-bloc .a-btn,.l-bloc .navbar a,.l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a{
 	color:rgba(0,0,0,.6);
 }
-.d-bloc .card .a-btn:hover{
+.d-bloc .card .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover{
 	color:rgba(0,0,0,1);
 }
-.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
+.l-bloc .navbar-toggle .icon-bar{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
@@ -227,7 +205,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-style{
 	width:431px;
-	margin-top:85px;
+	margin-top:105px;
 	margin-left:-10px;
 	border-radius:57px 57px 57px 57px;
 }
@@ -236,7 +214,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:331px 331px 331px 331px;
 }
 .row-style{
-	width:15.25%;
+	width:100%;
 }
 .bloc-bloc-3-style{
 	width:31.5%;
@@ -254,7 +232,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:100px;
 }
 .chen{
-	margin-top:150px;
+	margin-top:180px;
 }
 .cha{
 	margin-top:100px;
@@ -266,7 +244,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:60px;
 }
 .mt100{
-	margin-top:100px;
+	margin-top:150px;
 	margin-bottom:110px;
 }
 .hang{
@@ -362,7 +340,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:85px;
 }
 .p-bloc-5-style{
-	width:78.06%;
+	width:180%;
+	font-size:21px;
+	padding-top:330px;
+	padding-left:205px;
 }
 .p-4-style{
 	width:82.26%;
@@ -372,7 +353,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	line-height:35px;
 	font-size:14px;
 	letter-spacing:1px;
-	margin-bottom:-70px;
+	margin-bottom:70px;
+	padding-top:0px;
+	margin-top:-85px;
 }
 .bei{
 	margin-top:410px;
@@ -411,9 +394,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-bloc-2-style{
 	font-size:11px;
-	line-height:37px;
+	line-height:22px;
 	letter-spacing:1px;
-	width:100%;
+	width:53.06%;
+	font-family:"helvetica";
+	padding-top:30px;
+	margin-left:130px;
 }
 .p-2-style{
 	line-height:37px;
@@ -441,9 +427,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .scroll{
 	margin-top:600px;
 }
-.img-bloc-5-style{
-	width:95px;
-}
 .wechat{
 	;
 }
@@ -460,26 +443,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	;
 }
 .date{
-	padding-top:50px;
+	padding-top:30px;
 }
 .speed{
 	margin-left:800px;
 }
 .delay{
-	margin-top:100px;
+	margin-top:-87px;
 }
 .loop{
 	padding-right:200px;
+	padding-top:90px;
 }
 .cutom{
 	margin-top:500px;
 }
 .set{
-	padding-top:50px;
+	padding-top:30px;
 }
 .magin{
-	padding-top:70px;
-	margin-bottom:100px;
+	padding-top:50px;
 }
 .ding{
 	padding-top:40px;
@@ -502,33 +485,167 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:20px;
 	margin-bottom:40px;
 }
+.p-7-style{
+	font-size:18px;
+	width:150%;
+	padding-left:205px;
+	margin-top:-40px;
+}
+.hotel{
+	margin-top:-188px;
+}
+.horse{
+	margin-bottom:100px;
+}
+.doctor{
+	;
+}
+.worker{
+	padding-top:30px;
+}
+.row-bloc-5-style{
+	width:275%;
+	max-width:1000px;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+.any{
+	margin-top:160px;
+}
+.few{
+	margin-top:90px;
+	padding-left:445px;
+	padding-bottom:35px;
+}
+.diary{
+	margin-top:470px;
+	padding-right:220px;
+}
+.seem{
+	padding-left:465px;
+}
+.pig{
+	margin-top:200px;
+	padding-left:150px;
+}
+.hen{
+	margin-left:100px;
+}
+.boring{
+	padding-top:550px;
+	padding-left:130px;
+}
+.try{
+	margin-top:40px;
+}
+.like{
+	padding-top:250px;
+}
+.feel{
+	margin-right:-400px;
+	padding-left:150px;
+}
+.bus{
+	;
+}
+.wet{
+	padding-left:80px;
+}
+.maybe{
+	;
+}
+.junk{
+	margin-top:300px;
+	margin-bottom:-40px;
+}
+.img-bloc-2-style{
+	width:230px;
+}
+.die{
+	margin-bottom:-30px;
+	margin-top:-30px;
+}
+.such{
+	margin-top:20px;
+	padding-left:60px;
+	margin-bottom:-50px;
+}
+.than{
+	margin-bottom:-20px;
+	padding-left:130px;
+}
+.write{
+	margin-bottom:-15px;
+}
+.le-s-s{
+	;
+}
+.lou-d{
+	margin-left:11px;
+}
+.ou-t{
+	;
+}
+.row-bloc-4-style{
+	;
+}
+.go{
+	;
+}
+.which{
+	margin-bottom:-200px;
+}
+.both{
+	;
+}
+.long{
+	;
+}
+.kid{
+	;
+}
+.img-bloc-5-style{
+	margin-top:500px;
+	max-width:1500px;
+	padding-left:830px;
+	min-height:100px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
+
+/* Text colour styles */
+
+.tc-bubbles{
+	color:rgba(234,254,255,0.7)!important;
+}
+.tc-bubbles-2{
+	color:rgba(234,255,255,0.8)!important;
+}
 
 /* Bloc image backgrounds */
 
 .bg-bei{
 	background-image:url("img/bei.png");
 }
-.bg-zi{
-	background-image:url("img/zi.png");
-}
 .bg-gongyi{
 	background-image:url("img/gongyi.png");
-}
-.bg-chahua{
-	background-image:url("img/chahua.png");
 }
 .bg-di{
 	background-image:url("img/di.png");
 }
-.bg-ger{
-	background-image:url("img/ger.png");
+.bg-dit{
+	background-image:url("img/dit.png");
 }
-.bg-zixun{
-	background-image:url("img/zixun.png");
+.bg-jiannn{
+	background-image:url("img/jiannn.png");
+}
+.bg-sjj{
+	background-image:url("img/sjj.png");
+}
+.bg-kkka{
+	background-image:url("img/kkka.png");
 }
 
 
