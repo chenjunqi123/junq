@@ -400,6 +400,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"helvetica";
 	padding-top:20px;
 	margin-left:130px;
+	padding-bottom:40px;
 }
 .p-2-style{
 	line-height:37px;
@@ -560,7 +561,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-bloc-2-style{
 	width:230px;
-	margin-top:-10px;
+	margin-top:-50px;
 }
 .die{
 	;
